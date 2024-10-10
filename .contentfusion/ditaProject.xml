@@ -6,4 +6,12 @@
             <ditaval href="../luxury1.ditaval"/>
         </profile>
     </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <deliverable id="d-Luxury_Website-1728576617750" name="Luxury Website">
+        <context idref="rcsvMmsEzsZhwXl"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>
