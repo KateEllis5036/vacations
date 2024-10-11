@@ -8,9 +8,11 @@
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <deliverable id="d-Luxury_Website-1728576617750" name="Luxury Website">
+        <?description {"content":"test 1"}?>
         <context idref="rcsvMmsEzsZhwXl"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
+            <param href="cf://templates/Gallium" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
