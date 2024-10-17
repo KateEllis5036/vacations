@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="newtask">
+    <title>How to Create a New Task</title>
+    <shortdesc>We need to create task's in Oxygen for class, so we are learning how.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_rbs_x3t_bdc">Between "Task Body" and "Context" hit Enter and select
+            Prerequisites to add this section.<ul id="ul_vy3_cjt_bdc">
+                <li>To get this, I hit enter and then selected Unordered List.<ul
+                        id="ul_i4h_fjt_bdc">
+                        <li>This is a sub list. I created a new unordered list under a list.</li>
+                    </ul></li>
+            </ul></prereq>
+        <context>Task's require new descriptive id's. <p/></context>
+        <steps>
+            <step>
+                <cmd>Create a New Step within the Task.</cmd>
+                <info>You should also add into tags after steps with more descriptions. The task
+                    itself should only have one action item.</info>
+            </step>
+            <step>
+                <cmd>Create a second step.</cmd>
+                <info>Hit enter, then select step again. It will automatically propagate as step 2
+                    in an ordered list.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>
